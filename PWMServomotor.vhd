@@ -1,0 +1,26 @@
+library IEEE;
+use IEEE.std_logic_1164.ALL;
+use IEEE.std_logic_arith.ALL;
+use IEEE.std_logic_unsigned.ALL;
+
+entity PWMServomotor is
+	port(reloj: in std_logic;
+		  d: in std_logic_vector(15 downto 0);
+		  s: out std_logic);
+end PWMServomotor;
+
+architecture Behavioral of PWMServomotor is
+begin
+	process(reloj)
+		variable cuenta: integer range 0 to 65535 :=0;
+	begin
+		if reloj='1' and reloj'event then 
+			cuenta := (cuenta+1) mod 65535;
+			if cuenta<d then -- 13 a 24 ciclos [12,24] 2^5 '00000' Segundo  [3276,6552] 33 por cada division
+				s<='1';
+			else
+				s<='0';
+			end if;
+		end if;
+	end process;
+end Behavioral;

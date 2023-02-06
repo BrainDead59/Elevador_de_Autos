@@ -1,0 +1,62 @@
+library IEEE;
+use IEEE.std_logic_1164.ALL;
+use IEEE.std_logic_arith.ALL;
+use IEEE.std_logic_unsigned.ALL;
+
+entity Elevador is
+	port(clk: in std_logic;
+		  control: out std_logic);
+end Servomotor;
+
+architecture Behavioral of Servomotor is
+	component divisor is
+		port(clk: in std_logic;
+			  div_clk: out std_logic);
+	end component;
+	
+	component PWM is 
+		port(reloj: in std_logic;
+			  d: in std_logic_vector(15 downto 0);
+			  s: out std_logic);
+	end component;
+	
+	signal reloj: std_logic;
+	signal ancho: std_logic_vector(15 downto 0):=X"000F";
+
+begin
+	U1: divisor port map(clk,reloj);
+	U2: PWM port map(reloj,ancho,control);
+	
+	process(reloj)
+		variable cuenta: integer range 0 to 3276799:=0;
+		variable estado: integer range 0 to 5:=0;
+	begin
+		if reloj='1' and reloj'event then
+			if cuenta>0 then
+				cuenta:=cuenta-1;
+			else
+				cuenta:=3276799;
+				estado:= (estado + 1) mod 6;
+				if estado = 0 then
+					ancho<=x"0CCC";
+				end if;
+				if estado = 1 then
+					ancho<=x"0F60";
+				end if;
+				if estado = 2 then
+					ancho<=x"11F4";
+				end if;
+				if estado = 3 then
+					ancho<=x"1488";
+				end if;
+				if estado = 4 then
+					ancho<=x"171C";
+				end if;
+				if estado = 5 then
+					ancho<=x"1998";
+				end if;
+			end if;
+		end if;
+	end process;
+			
+end Behavioral;

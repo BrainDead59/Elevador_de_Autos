@@ -1,0 +1,149 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'DivisorServomotor:U1|cuenta[3]'
+Slack : -11.595
+TNS   : -153.814
+
+Type  : Slow 1200mV 85C Model Setup 'div[17]'
+Slack : -4.349
+TNS   : -49.865
+
+Type  : Slow 1200mV 85C Model Setup 'estado_pres.P1'
+Slack : -3.760
+TNS   : -7.876
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -3.386
+TNS   : -146.776
+
+Type  : Slow 1200mV 85C Model Hold 'estado_pres.P1'
+Slack : 0.071
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DivisorServomotor:U1|cuenta[3]'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.344
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'div[17]'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -97.001
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'div[17]'
+Slack : -1.403
+TNS   : -33.672
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DivisorServomotor:U1|cuenta[3]'
+Slack : -1.403
+TNS   : -23.851
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'estado_pres.P1'
+Slack : -1.403
+TNS   : -8.418
+
+Type  : Slow 1200mV 0C Model Setup 'DivisorServomotor:U1|cuenta[3]'
+Slack : -10.478
+TNS   : -138.607
+
+Type  : Slow 1200mV 0C Model Setup 'div[17]'
+Slack : -3.999
+TNS   : -44.346
+
+Type  : Slow 1200mV 0C Model Setup 'estado_pres.P1'
+Slack : -3.378
+TNS   : -7.329
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -3.084
+TNS   : -130.388
+
+Type  : Slow 1200mV 0C Model Hold 'estado_pres.P1'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DivisorServomotor:U1|cuenta[3]'
+Slack : 0.306
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'div[17]'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -97.001
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'div[17]'
+Slack : -1.403
+TNS   : -33.672
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DivisorServomotor:U1|cuenta[3]'
+Slack : -1.403
+TNS   : -23.851
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'estado_pres.P1'
+Slack : -1.403
+TNS   : -8.418
+
+Type  : Fast 1200mV 0C Model Setup 'DivisorServomotor:U1|cuenta[3]'
+Slack : -4.154
+TNS   : -53.013
+
+Type  : Fast 1200mV 0C Model Setup 'div[17]'
+Slack : -1.433
+TNS   : -14.251
+
+Type  : Fast 1200mV 0C Model Setup 'estado_pres.P1'
+Slack : -1.250
+TNS   : -2.154
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -0.875
+TNS   : -26.488
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DivisorServomotor:U1|cuenta[3]'
+Slack : 0.149
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'div[17]'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'estado_pres.P1'
+Slack : 0.230
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -72.683
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'div[17]'
+Slack : -1.000
+TNS   : -24.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DivisorServomotor:U1|cuenta[3]'
+Slack : -1.000
+TNS   : -17.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'estado_pres.P1'
+Slack : -1.000
+TNS   : -6.000
+
+------------------------------------------------------------

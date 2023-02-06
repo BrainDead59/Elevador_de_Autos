@@ -1,0 +1,27 @@
+
+State Machine - |Elevador|estado_pres
+Name estado_pres.Bajando3 estado_pres.Bajando2 estado_pres.Bajando1 estado_pres.Subiendo3 estado_pres.Subiendo2 estado_pres.Subiendo1 estado_pres.P3 estado_pres.P2 estado_pres.P1 estado_pres.PB 
+estado_pres.PB 0 0 0 0 0 0 0 0 0 0 
+estado_pres.P1 0 0 0 0 0 0 0 0 1 1 
+estado_pres.P2 0 0 0 0 0 0 0 1 0 1 
+estado_pres.P3 0 0 0 0 0 0 1 0 0 1 
+estado_pres.Subiendo1 0 0 0 0 0 1 0 0 0 1 
+estado_pres.Subiendo2 0 0 0 0 1 0 0 0 0 1 
+estado_pres.Subiendo3 0 0 0 1 0 0 0 0 0 1 
+estado_pres.Bajando1 0 0 1 0 0 0 0 0 0 1 
+estado_pres.Bajando2 0 1 0 0 0 0 0 0 0 1 
+estado_pres.Bajando3 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - |Elevador|MotorPasos:U3|pres_s
+Name pres_s.sm10 pres_s.sm9 pres_s.sm8 pres_s.sm7 pres_s.sm6 pres_s.sm5 pres_s.sm4 pres_s.sm3 pres_s.sm2 pres_s.sm1 pres_s.sm0 
+pres_s.sm0 0 0 0 0 0 0 0 0 0 0 0 
+pres_s.sm1 0 0 0 0 0 0 0 0 0 1 1 
+pres_s.sm2 0 0 0 0 0 0 0 0 1 0 1 
+pres_s.sm3 0 0 0 0 0 0 0 1 0 0 1 
+pres_s.sm4 0 0 0 0 0 0 1 0 0 0 1 
+pres_s.sm5 0 0 0 0 0 1 0 0 0 0 1 
+pres_s.sm6 0 0 0 0 1 0 0 0 0 0 1 
+pres_s.sm7 0 0 0 1 0 0 0 0 0 0 1 
+pres_s.sm8 0 0 1 0 0 0 0 0 0 0 1 
+pres_s.sm9 0 1 0 0 0 0 0 0 0 0 1 
+pres_s.sm10 1 0 0 0 0 0 0 0 0 0 1 

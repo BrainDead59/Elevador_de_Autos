@@ -1,0 +1,89 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "controlServo",
+					"strict" : false
+				},
+				{
+					"name" : "mot[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mot[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mot[2]",
+					"strict" : false
+				},
+				{
+					"name" : "mot[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sensor_disp",
+					"strict" : false
+				},
+				{
+					"name" : "letrero1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "letrero1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "letrero1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "letrero1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "letrero1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "letrero1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "letrero2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "letrero2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "letrero2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "letrero2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "sensor_eco",
+					"strict" : false
+				},
+				{
+					"name" : "botonB",
+					"strict" : false
+				},
+				{
+					"name" : "botonS",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
